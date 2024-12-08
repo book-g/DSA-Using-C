@@ -37,19 +37,29 @@ void createFile(key, value, filepath) {
     file.createSync(recursive: true);
   }
 
-  if (key != "text" && key != "li" && key != "ul") {
+  if (key != "text" &&
+      key != "li" &&
+      key != "ul" &&
+      key != "code" &&
+      key != "image") {
     if (file.existsSync()) {
-      var wtr = file.readAsStringSync() + "$key \n";
+      var wtr =
+          file.readAsStringSync() + "- [$key](${replace(key)}/readme.md) \n";
       file.writeAsStringSync(wtr);
     }
   } else {
     if (file.existsSync() && value != null && value.isNotEmpty) {
       var read = "";
       if (key == "text") {
-        read = file.readAsStringSync() + "\n > ${value} ";
+        read = file.readAsStringSync() + "\n > ${value} \n";
       } else if (key == "ul") {
         read = file.readAsStringSync() + "\n - ${value} \n";
+      } else if (key == "code") {
+        read = file.readAsStringSync() + "\n ${value} \n";
+      } else if (key == "image") {
+        read = file.readAsStringSync() + "\n ![${value}](${value}) \n";
       }
+
       file.writeAsStringSync(read);
     }
   }
@@ -76,7 +86,11 @@ void formly(data) {
         var routefile = rootpathdir.join("/");
         createFile(entry.key, entry.value, routefile);
 
-        if (entry.key != "text" && entry.key != "li" && entry.key != "ul") {
+        if (entry.key != "text" &&
+            entry.key != "li" &&
+            entry.key != "ul" &&
+            entry.key != "code" &&
+            entry.key != "image") {
           rootpathdir.add(entry.key);
         }
 

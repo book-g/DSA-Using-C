@@ -1,3 +1,5 @@
+import 'linked_list/introduction.dart';
+import 'linked_list/introduction/basic_terminologies.dart';
 import 'preface_to_the_first_edition/about_the_book.dart';
 import 'preface_to_the_first_edition/acknowledgements.dart';
 import 'preface_to_the_first_edition/preface_to_the_first_edition.dart';
@@ -150,11 +152,13 @@ var structures_and_unions = [
   {"8. Unions Inside Structures": []},
 ];
 var linked_list = [
+  {"Learning Objective": linked_list_learning_objective},
   {
     "1. Introduction": [
-      {"1. Basic Terminologies": []},
-      {"2. Linked Lists verus Arrays": []},
-      {"3. Memory Allocation and De-allocation for a Linked List": []},
+      {"1. Introduction": linked_list_introduction},
+      {"2. Basic Terminologies": basic_terminologies},
+      {"3. Linked Lists verus Arrays": []},
+      {"4. Memory Allocation and De-allocation for a Linked List": []},
     ]
   },
   {
