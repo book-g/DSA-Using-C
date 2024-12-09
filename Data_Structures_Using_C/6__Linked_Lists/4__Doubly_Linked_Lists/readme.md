@@ -1,0 +1,2 @@
+- [1. Inserting a New Node in a Doubly Linked List](1__Inserting_a_New_Node_in_a_Doubly_Linked_List/readme.md) 
+- [2. Deleting a Node from a Doubly Linked List](2__Deleting_a_Node_from_a_Doubly_Linked_List/readme.md) 

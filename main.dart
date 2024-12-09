@@ -3,7 +3,7 @@ import 'dart:io';
 import 'content.dart';
 
 void createDir(dirpath) {
-  // print(dirpath);
+  print(dirpath);
   dirpath = replace(dirpath);
 
   var directory = Directory(dirpath);
