@@ -1,5 +1,7 @@
 import 'linked_list/introduction.dart';
 import 'linked_list/introduction/basic_terminologies.dart';
+import 'linked_list/introduction/linked_lists_verus_arrays.dart';
+import 'linked_list/introduction/memory_allocation_and_deallocation_for_a_linked_list.dart';
 import 'preface_to_the_first_edition/about_the_book.dart';
 import 'preface_to_the_first_edition/acknowledgements.dart';
 import 'preface_to_the_first_edition/preface_to_the_first_edition.dart';
@@ -157,8 +159,8 @@ var linked_list = [
     "1. Introduction": [
       {"1. Introduction": linked_list_introduction},
       {"2. Basic Terminologies": basic_terminologies},
-      {"3. Linked Lists verus Arrays": []},
-      {"4. Memory Allocation and De-allocation for a Linked List": []},
+      {"3. Linked Lists verus Arrays": ll_vs_arr},
+      {"4. Memory Allocation and De-allocation for a Linked List": ma_da_ll},
     ]
   },
   {
