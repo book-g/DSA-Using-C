@@ -1,7 +1,11 @@
-import 'linked_list/introduction.dart';
+import 'linked_list/introduction/introduction.dart';
 import 'linked_list/introduction/basic_terminologies.dart';
 import 'linked_list/introduction/linked_lists_verus_arrays.dart';
 import 'linked_list/introduction/memory_allocation_and_deallocation_for_a_linked_list.dart';
+import 'linked_list/singly_linked_list/inserting_a_new_node_in_a_ll/insert_new_node_in_ll_introduction.dart';
+import 'linked_list/singly_linked_list/searching_for_a_value_in_a_ll.dart';
+import 'linked_list/singly_linked_list/sll_introduction.dart';
+import 'linked_list/singly_linked_list/traversing_a_ll.dart';
 import 'preface_to_the_first_edition/about_the_book.dart';
 import 'preface_to_the_first_edition/acknowledgements.dart';
 import 'preface_to_the_first_edition/preface_to_the_first_edition.dart';
@@ -165,10 +169,29 @@ var linked_list = [
   },
   {
     "2. Singly Linked Lists": [
-      {"1. Traversing a Linked List": []},
-      {"2. Searching for a Value in a Linked List": []},
-      {"3. Inserting a New Node in a Linked List": []},
-      {"4. Deleting a Node from a Linked List": []},
+      {"1. Introduction": sll_introduction},
+      {"2. Traversing a Linked List": travering_a_ll},
+      {
+        "3. Searching for a Value in a Linked List":
+            searching_for_a_value_in_a_ll
+      },
+      {
+        "4. Inserting a New Node in a Linked List": [
+          {"1. Introduction": insert_new_node_in_ll_introduction},
+          {"2. Inserting a Node at the Beginning of a Linked List": []},
+          {"3. Inserting a Node at the End of a Linked List": []},
+          {"4. Inserting a Node After a Given Node in a Linked List": []},
+          {"5. Inserting a Node Before Node in a Linked List": []},
+        ]
+      },
+      {
+        "5. Deleting a Node from a Linked List": [
+          {"1. Introduction": []},
+          {"2. Deleting the First Node from a Linked List": []},
+          {"3. Deleting the Last Node from a Linked List": []},
+          {"4. Deleting the Node After a Given Node in a Linked List": []},
+        ]
+      },
     ]
   },
   {
