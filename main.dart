@@ -3,7 +3,7 @@ import 'dart:io';
 import 'content.dart';
 
 void createDir(dirpath) {
-  print(dirpath);
+  //print(dirpath);
   dirpath = replace(dirpath);
 
   var directory = Directory(dirpath);
@@ -48,12 +48,16 @@ void createFile(key, value, filepath) {
       file.writeAsStringSync(wtr);
     }
   } else {
+    var read = "";
     if (file.existsSync() && value != null && value.isNotEmpty) {
-      var read = "";
       if (key == "text") {
         read = file.readAsStringSync() + "\n > ${value} \n";
-      } else if (key == "ul") {
-        read = file.readAsStringSync() + "\n - ${value} \n";
+      } else if (key == "ul" || key == "li") {
+        if (value is List) {
+          read = file.readAsStringSync() + "\n";
+        } else {
+          read = file.readAsStringSync() + "\n - ${value} \n";
+        }
       } else if (key == "code") {
         read = file.readAsStringSync() + "\n ${value} \n";
       } else if (key == "image") {
@@ -70,7 +74,6 @@ void createFileEmptyDir(key, value, filepath) {
   key = replace(key);
 
   var route = "${filepath}/$key/readme.md";
-  print(route);
   var file = File(route);
   if (!file.existsSync()) {
     file.createSync(recursive: true);
