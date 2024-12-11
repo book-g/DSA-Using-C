@@ -2,13 +2,17 @@ import 'linked_list/introduction/introduction.dart';
 import 'linked_list/introduction/basic_terminologies.dart';
 import 'linked_list/introduction/linked_lists_verus_arrays.dart';
 import 'linked_list/introduction/memory_allocation_and_deallocation_for_a_linked_list.dart';
+import 'linked_list/singly_linked_list/deleting_a_node_in_ll/delete_a_first_node_in_ll.dart';
+import 'linked_list/singly_linked_list/deleting_a_node_in_ll/delete_a_last_node_in_ll.dart';
 import 'linked_list/singly_linked_list/deleting_a_node_in_ll/delete_a_node_in_ll_intro.dart';
+import 'linked_list/singly_linked_list/deleting_a_node_in_ll/delete_node_after_given_node_in_ll.dart';
 import 'linked_list/singly_linked_list/inserting_a_new_node_in_a_ll/insert_a_node_at_the_beginning_of_a_ll.dart';
 import 'linked_list/singly_linked_list/inserting_a_new_node_in_a_ll/insert_new_node_in_ll_introduction.dart';
 import 'linked_list/singly_linked_list/inserting_a_new_node_in_a_ll/insert_node_at_the_end_ll.dart';
 import 'linked_list/singly_linked_list/inserting_a_new_node_in_a_ll/inserting_a_node_after_a_given_node_in_ll.dart';
 import 'linked_list/singly_linked_list/inserting_a_new_node_in_a_ll/inserting_a_node_before_a_given_node_in_ll.dart';
 
+import 'linked_list/singly_linked_list/programming_example/ll_programming_example.dart';
 import 'linked_list/singly_linked_list/searching_for_a_value_in_a_ll.dart';
 import 'linked_list/singly_linked_list/sll_introduction.dart';
 import 'linked_list/singly_linked_list/traversing_a_ll.dart';
@@ -205,11 +209,21 @@ var linked_list = [
       {
         "5. Deleting a Node from a Linked List": [
           {"1. Introduction": delete_a_node_in_ll_intro},
-          {"2. Deleting the First Node from a Linked List": []},
-          {"3. Deleting the Last Node from a Linked List": []},
-          {"4. Deleting the Node After a Given Node in a Linked List": []},
+          {
+            "2. Deleting the First Node from a Linked List":
+                delete_a_first_node_in_ll
+          },
+          {
+            "3. Deleting the Last Node from a Linked List":
+                delete_last_node_in_ll
+          },
+          {
+            "4. Deleting the Node After a Given Node in a Linked List":
+                delete_the_node_after_given_node_in_ll
+          },
         ]
       },
+      {"Programming Example": ll_programming_example}
     ]
   },
   {
