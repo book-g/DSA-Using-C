@@ -228,20 +228,62 @@ var linked_list = [
   },
   {
     "3. Circular Linked Lists": [
-      {"1. Inserting a New Node in a Circular Linked List": []},
-      {"2. Deleting a Node from a Circular Linked List": []},
+      {"1. Introduction": []},
+      {
+        "1. Inserting a New Node in a Circular Linked List": [
+          {
+            "1. Inserting a Node at the Beginning of a Circular Linekd List": []
+          },
+          {"2. Inserting a Node at the End of a Circular Linked List": []},
+        ]
+      },
+      {
+        "2. Deleting a Node from a Circular Linked List": [
+          {"1. Deleting the First Node from a Circular Linked List": []},
+          {"2. Deleting the Last Node from a Circular Linked List": []},
+        ]
+      },
+      {"Programming Example": []}
     ]
   },
   {
     "4. Doubly Linked Lists": [
-      {"1. Inserting a New Node in a Doubly Linked List": []},
-      {"2. Deleting a Node from a Doubly Linked List": []},
+      {"1. Introduction": []},
+      {
+        "2. Inserting a New Node in a Doubly Linked List": [
+          {"1. Inserting a Node at the Beginning of a Doubly Linked List": []},
+          {"2. Inserting a Node at the End of a Doubly Linked List": []},
+          {
+            "3. Inserting a Node After a Given Node in a Doubly Linked List": []
+          },
+          {
+            "4. Inserting a Node Before a Given Node in a Doubly Linked List":
+                []
+          }
+        ]
+      },
+      {
+        "3. Deleting a Node from a Doubly Linked List": [
+          {"1. Deleting the First Node from a Doubly Linked List": []},
+          {"2. Deleting the Last Node from a Doubly Linked List": []},
+          {
+            "3. Deleting the Node After a Given Node in a Doubly Linked List":
+                []
+          },
+          {
+            "4. Deleting the Node Before a Given Node in a Doubly Linked List":
+                []
+          },
+        ]
+      },
+      {"Programming Example": []}
     ]
   },
   {
     "5. Circular Doubly Linked Lists": [
-      {"1. Inserting a New Node in a Circular Doubly Linked List": []},
-      {"2. Deleting a Node from a Circular Doubly Linked List": []},
+      {"1. Introduction": []},
+      {"2. Inserting a New Node in a Circular Doubly Linked List": []},
+      {"3. Deleting a Node from a Circular Doubly Linked List": []},
     ]
   },
   {"6. Header Linked Lists": []},
