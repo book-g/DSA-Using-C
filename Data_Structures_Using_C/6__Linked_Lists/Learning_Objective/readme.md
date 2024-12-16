@@ -8,7 +8,6 @@ performed on these lists.
  
  </div>
  <div style="flex: 1;"> 
- 
- ![image/list/1g.webp](/image/list/1g.webp) 
- 
+
+ <img src = "/image/list/1g.webp"/>
  </div></div>
