@@ -8,7 +8,7 @@ performed on these lists.
  
  </div>
  <div style="flex: 1;"> 
- 
- ![DSA-Using-C/image/list/1g.webp](/DSA-Using-C/image/list/1g.webp) 
- 
+
+ <img src="/DSA-Using-C/image/list/1g.webp"/>
+  
  </div></div>
