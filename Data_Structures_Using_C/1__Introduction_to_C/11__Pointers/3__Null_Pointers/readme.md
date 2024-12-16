@@ -1,3 +1,0 @@
-
-## 3. Null Pointers
-
