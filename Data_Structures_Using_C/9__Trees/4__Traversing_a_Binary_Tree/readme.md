@@ -1,3 +1,5 @@
+## 4. Traversing a Binary Tree 
+
 - [1. Pre-order Traversal](1__Pre-order_Traversal/readme.md) 
 - [2. In-order Traversal](2__In-order_Traversal/readme.md) 
 - [3. Post-order Traversal](3__Post-order_Traversal/readme.md) 

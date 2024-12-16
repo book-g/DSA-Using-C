@@ -1,3 +1,5 @@
+## 3. Arrays 
+
 - [1. Introduction](1__Introduction/readme.md) 
 - [2. Declaration of Arrays](2__Declaration_of_Arrays/readme.md) 
 - [3. Accessing the Elements of an Array](3__Accessing_the_Elements_of_an_Array/readme.md) 

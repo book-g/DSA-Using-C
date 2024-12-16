@@ -1,3 +1,5 @@
+## 15. Hashing and Collision 
+
 - [1. Introduction](1__Introduction/readme.md) 
 - [2. Hash Tables](2__Hash_Tables/readme.md) 
 - [3. Hash Functions](3__Hash_Functions/readme.md) 

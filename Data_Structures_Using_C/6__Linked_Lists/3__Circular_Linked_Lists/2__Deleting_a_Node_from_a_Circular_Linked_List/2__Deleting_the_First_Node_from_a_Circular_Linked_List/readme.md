@@ -1,3 +1,5 @@
+## 2. Deleting the First Node from a Circular Linked List 
+
 
  > Consider the circular linked list shown in Fig.
 6.33. When we want to delete a node from the

@@ -1,3 +1,5 @@
+## 1. Introduction 
+
 
  > A data structure is defined as a group of data elements used for organizing and storing data. In order 
 to be effective, data has to be organized in a manner that adds to the efficiency of an algorithm, and 

@@ -1,3 +1,5 @@
+## 1. Introduction to C 
+
 - [1. Introduction](1__Introduction/readme.md) 
 - [2. Identifiers and Keywords](2__Identifiers_and_Keywords/readme.md) 
 - [3. Basic Data Types](3__Basic_Data_Types/readme.md) 

@@ -1,3 +1,5 @@
+## 5. Inserting a Node Before Node in a Linked List 
+
 
  > Consider the linked list shown in Fig. 6.19. Suppose we want to add a new node with value 9 before 
 the node containing 3. Before discussing 

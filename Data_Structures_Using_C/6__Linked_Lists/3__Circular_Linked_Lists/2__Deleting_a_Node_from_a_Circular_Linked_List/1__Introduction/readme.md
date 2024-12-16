@@ -1,3 +1,5 @@
+## 1. Introduction 
+
 
  > In this section, we will discuss how a node is deleted from an already existing circular linked list.
 We will take two cases and then see how deletion is done in each case. Rest of the cases of 

@@ -1,3 +1,5 @@
+## 7. Stacks 
+
 - [1. Introduction to Stacks](1__Introduction_to_Stacks/readme.md) 
 - [2. Array Representation of Stacks](2__Array_Representation_of_Stacks/readme.md) 
 - [3. Operations on a Stack](3__Operations_on_a_Stack/readme.md) 

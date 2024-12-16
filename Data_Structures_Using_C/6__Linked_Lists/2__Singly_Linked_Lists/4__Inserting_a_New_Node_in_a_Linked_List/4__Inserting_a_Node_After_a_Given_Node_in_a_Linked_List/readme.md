@@ -1,3 +1,5 @@
+## 4. Inserting a Node After a Given Node in a Linked List 
+
 
  > Consider the linked list shown in Fig. 6.17. Suppose we want to add a new node with value 9 after 
 the node containing data 3. Before discussing the changes that will be done in the linked list, let 

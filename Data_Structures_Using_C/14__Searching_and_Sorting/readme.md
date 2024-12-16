@@ -1,3 +1,5 @@
+## 14. Searching and Sorting 
+
 - [1. Introduction to Searching](1__Introduction_to_Searching/readme.md) 
 - [2. Linear Search](2__Linear_Search/readme.md) 
 - [3. Binary Search](3__Binary_Search/readme.md) 

@@ -1,3 +1,5 @@
+## 2. Deleting the First Node from a Linked List 
+
 
  > Consider the linked list in Fig. 6.20. When we want to delete a node from the beginning of the 
 list, then the following changes will be done in the linked list.

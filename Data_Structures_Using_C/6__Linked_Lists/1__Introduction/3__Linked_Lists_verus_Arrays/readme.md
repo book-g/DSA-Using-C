@@ -1,3 +1,5 @@
+## 3. Linked Lists verus Arrays 
+
 
  >  Both arrays and linked lists are a linear collection of data elements. But unlike an array, a linked 
 list does not store its nodes in consecutive memory locations. Another point of difference between 

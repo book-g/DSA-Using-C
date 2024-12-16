@@ -1,3 +1,5 @@
+## 1. Introduction 
+
 
  >  In this section, we will discuss how a node is deleted from an already existing linked list. We will 
 consider three cases and then see how deletion is done in each case.

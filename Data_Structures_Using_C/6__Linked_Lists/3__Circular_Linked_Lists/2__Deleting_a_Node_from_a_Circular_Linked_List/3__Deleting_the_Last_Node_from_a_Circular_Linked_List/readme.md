@@ -1,3 +1,5 @@
+## 3. Deleting the Last Node from a Circular Linked List 
+
 
  > Consider the circular linked list shown in Fig.
 6.35. Suppose we want to delete the last node

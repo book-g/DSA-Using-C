@@ -1,3 +1,5 @@
+## 2. Traversing a Linked List 
+
 
  > Traversing a linked list means accessing the nodes of the list in order to perform some processing 
 on them. Remember a linked list always contains a pointer variable START which stores the address 

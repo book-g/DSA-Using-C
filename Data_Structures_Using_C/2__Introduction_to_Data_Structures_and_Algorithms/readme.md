@@ -1,3 +1,5 @@
+## 2. Introduction to Data Structures and Algorithms 
+
 - [1. Basic Terminology](1__Basic_Terminology/readme.md) 
 - [2. Classification of Data Structures](2__Classification_of_Data_Structures/readme.md) 
 - [3. Operations on Data Structures](3__Operations_on_Data_Structures/readme.md) 

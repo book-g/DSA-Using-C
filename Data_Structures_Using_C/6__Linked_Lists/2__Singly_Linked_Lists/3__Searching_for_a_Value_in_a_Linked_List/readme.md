@@ -1,3 +1,5 @@
+## 3. Searching for a Value in a Linked List 
+
 
  > Searching a linked list means to find a particular 
 element in the linked list. As already discussed, 

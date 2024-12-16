@@ -1,3 +1,5 @@
+## 2. Inserting a Node at the Beginning of a Linked List 
+
 
  > Consider the linked list shown in Fig. 6.12. Suppose we want to add a new node with data 9 and 
 add it as the first node of the list. Then the following changes will be done in the linked list.

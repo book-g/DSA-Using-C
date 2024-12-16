@@ -1,3 +1,5 @@
+## 2. Basic Terminologies 
+
 
  >  A linked list, in simple terms, is a linear collection of data elements. These data elements are 
 called nodes. Linked list is a data structure which in turn can be used to implement other data

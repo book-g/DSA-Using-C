@@ -1,3 +1,5 @@
+## 2. Operations on Binary Search Trees 
+
 - [1. Searching for a Node in a Binary Search Tree](1__Searching_for_a_Node_in_a_Binary_Search_Tree/readme.md) 
 - [2. Inserting a New Node in a Binary Search Tree](2__Inserting_a_New_Node_in_a_Binary_Search_Tree/readme.md) 
 - [3. Deleting a Node from a Binary Search Tree](3__Deleting_a_Node_from_a_Binary_Search_Tree/readme.md) 

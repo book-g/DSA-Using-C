@@ -1,3 +1,5 @@
+## 8. Shortest Path Algorithms 
+
 - [1. Minimum Spanning Trees](1__Minimum_Spanning_Trees/readme.md) 
 - [2. Prim's Algorithm](2__Prim's_Algorithm/readme.md) 
 - [3. Kruskal's Algorithm](3__Kruskal's_Algorithm/readme.md) 

@@ -1,3 +1,5 @@
+## 3. Deleting the Last Node from a Linked List 
+
 
  >  Consider the linked list shown in Fig. 6.22. Suppose we want to delete the last node from the 
 linked list, then the following changes will be done in the linked list.

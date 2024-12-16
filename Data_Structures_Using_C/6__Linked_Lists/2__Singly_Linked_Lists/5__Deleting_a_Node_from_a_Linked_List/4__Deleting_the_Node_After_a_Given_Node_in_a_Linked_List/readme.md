@@ -1,3 +1,5 @@
+## 4. Deleting the Node After a Given Node in a Linked List 
+
 
  >  Consider the linked list shown in Fig. 6.24. Suppose we want to delete the node that succeeds 
 the node which contains data value 4. Then the following changes will be done in the linked list.
