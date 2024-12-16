@@ -3,7 +3,7 @@
 the node which contains data value 4. Then the following changes will be done in the linked list.
  
 
- ![/image/list/24.png](/image/list/24.png) 
+ ![DSA-Using-C/image/list/24.png](DSA-Using-C/image/list/24.png) 
 
  > Figure 6.25 shows the algorithm to delete the node after a given node from a linked list. In 
 Step 2, we take a pointer variable PTR and initialize it with START. That is, PTR now points to the 
@@ -14,4 +14,4 @@ field of the node succeeding it. The memory of the node succeeding the given nod
 returned back to the free pool.
  
 
- ![/image/list/25.png](/image/list/25.png) 
+ ![DSA-Using-C/image/list/25.png](DSA-Using-C/image/list/25.png) 

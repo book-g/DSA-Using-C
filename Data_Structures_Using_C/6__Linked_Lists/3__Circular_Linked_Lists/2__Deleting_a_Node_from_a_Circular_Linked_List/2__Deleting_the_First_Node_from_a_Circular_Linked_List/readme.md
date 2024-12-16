@@ -4,7 +4,7 @@
 beginning of the list, then the following changes
 will be done in the linked list. 
 
- ![/image/list/33.png](/image/list/33.png) 
+ ![DSA-Using-C/image/list/33.png](DSA-Using-C/image/list/33.png) 
 
  > Figure 6.34 shows the algorithm to delete the first node from a circular linked list. In Step 1 of
 the algorithm, we check if the linked list exists or not. If START = NULL, then it signifies that there
@@ -20,4 +20,4 @@ node of the list and its address is stored in the
 pointer variable START.
  
 
- ![/image/list/34.png](/image/list/34.png) 
+ ![DSA-Using-C/image/list/34.png](DSA-Using-C/image/list/34.png) 

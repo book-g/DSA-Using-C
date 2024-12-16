@@ -3,7 +3,7 @@
 the last node of the list. Then the following changes will be done in the linked list.
  
 
- ![/image/list/31.png](/image/list/31.png) 
+ ![DSA-Using-C/image/list/31.png](DSA-Using-C/image/list/31.png) 
 
  > Figure 6.32 shows the algorithm to insert a new node at the end of a circular linked list. In Step 6,
 we take a pointer variable PTR and initialize it with START. That is, PTR now points to the first node

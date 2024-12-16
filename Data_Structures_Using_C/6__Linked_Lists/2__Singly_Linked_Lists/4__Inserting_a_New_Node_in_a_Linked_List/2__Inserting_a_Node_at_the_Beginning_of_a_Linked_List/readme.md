@@ -3,9 +3,9 @@
 add it as the first node of the list. Then the following changes will be done in the linked list.
  
 
- ![/image/list/12.png](/image/list/12.png) 
+ ![DSA-Using-C/image/list/12.png](DSA-Using-C/image/list/12.png) 
 
- ![/image/list/13.png](/image/list/13.png) 
+ ![DSA-Using-C/image/list/13.png](DSA-Using-C/image/list/13.png) 
 
  >  Figure 6.13 shows the algorithm to insert a new node 
  at the beginning of a linked list. In Step 1, we first check

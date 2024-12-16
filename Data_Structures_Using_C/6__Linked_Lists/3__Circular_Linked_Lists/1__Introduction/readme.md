@@ -5,7 +5,7 @@ linked list, we can begin at any node and traverse the list in any direction, fo
 until we reach the same node where we started. Thus, a circular linked list has no beginning and
 no ending. Figure 6.26 shows a circular linked list. 
 
- ![/image/list/26.png](/image/list/26.png) 
+ ![DSA-Using-C/image/list/26.png](DSA-Using-C/image/list/26.png) 
 
  > The only downside of a circular linked list is the complexity of iteration. Note that there are
 no NULL values in the NEXT part of any of the nodes of list. 
@@ -22,7 +22,7 @@ Forward buttons. Actually, this is done using either the circular stack
 or the circular queue. We will read about circular queues in Chapter 8.
 Consider Fig. 6.27. 
 
- ![/image/list/27.png](/image/list/27.png) 
+ ![DSA-Using-C/image/list/27.png](DSA-Using-C/image/list/27.png) 
 
  > We can traverse the list until we find the NEXT entry that contains the
 address of the first node of the list. This denotes the end of the linked
@@ -42,7 +42,7 @@ remaining nodes are reached by looking at the value
 stored in NEXT.
  
 
- ![/image/list/28.png](/image/list/28.png) 
+ ![DSA-Using-C/image/list/28.png](DSA-Using-C/image/list/28.png) 
 
  > By looking at the figure, we can conclude that the roll
 numbers of the students who have opted for Biology are

@@ -23,7 +23,7 @@ deletions in the list.
 all free memory cells. This list of available space is called the free pool.
  
 
- ![/image/list/5.png](/image/list/5.png) 
+ ![DSA-Using-C/image/list/5.png](DSA-Using-C/image/list/5.png) 
 
  > We have seen that every linked list has a pointer variable START which stores the address of the 
 first node of the list. Likewise, for the free pool (which is a linked list of all free memory cells), 
@@ -37,7 +37,7 @@ address will be stored in AVAIL. For example, in Fig. 6.6, when the first free m
 utilized for inserting the new node, AVAIL will be set to contain address 6.
  
 
- ![/image/list/6.png](/image/list/6.png) 
+ ![DSA-Using-C/image/list/6.png](DSA-Using-C/image/list/6.png) 
 
  > This was all about inserting a new node in 
 an already existing linked list. Now, we will 

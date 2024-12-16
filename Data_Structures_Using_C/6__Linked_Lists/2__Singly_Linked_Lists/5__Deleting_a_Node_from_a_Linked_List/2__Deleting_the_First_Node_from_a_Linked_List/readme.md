@@ -3,9 +3,9 @@
 list, then the following changes will be done in the linked list.
  
 
- ![/image/list/20.png](/image/list/20.png) 
+ ![DSA-Using-C/image/list/20.png](DSA-Using-C/image/list/20.png) 
 
- ![/image/list/21.png](/image/list/21.png) 
+ ![DSA-Using-C/image/list/21.png](DSA-Using-C/image/list/21.png) 
 
  >  Figure 6.21 shows the algorithm to delete the first node from a linked list. In Step 1, we check 
 if the linked list exists or not. If START = NULL, then it signifies 

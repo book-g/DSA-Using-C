@@ -11,7 +11,7 @@ the address of the node that contains the value.
 
  > Figure 6.10 shows the algorithm to search a linked list. 
 
- ![/image/list/10.png](/image/list/10.png) 
+ ![DSA-Using-C/image/list/10.png](DSA-Using-C/image/list/10.png) 
 
  > In Step 1, we initialize the pointer variable PTR with 
 START that contains the address of the first node. In 
@@ -28,4 +28,4 @@ linked list.
  >  Consider the linked list shown in Fig. 6.11. If we have VAL = 4, then the flow of the algorithm 
 can be explained as shown in the figure. 
 
- ![/image/list/11.png](/image/list/11.png) 
+ ![DSA-Using-C/image/list/11.png](DSA-Using-C/image/list/11.png) 

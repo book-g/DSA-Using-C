@@ -7,7 +7,7 @@ points to the node that is currently being accessed. The algorithm to traverse a
 in Fig. 6.8.
  
 
- ![/image/list/8.png](/image/list/8.png) 
+ ![DSA-Using-C/image/list/8.png](DSA-Using-C/image/list/8.png) 
 
  >  In this algorithm, we first initialize PTR with the address of START. So now, PTR points to the first 
 node of the linked list. Then in Step 2, a while loop is executed which is repeated till PTR processes 
@@ -27,4 +27,4 @@ be displayed. Figure 6.9 shows the algorithm to
 print the number of nodes in a linked list.
  
 
- ![/image/list/9.png](/image/list/9.png) 
+ ![DSA-Using-C/image/list/9.png](DSA-Using-C/image/list/9.png) 

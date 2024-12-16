@@ -4,7 +4,7 @@
 from the linked list, then the following changes
 will be done in the linked list. 
 
- ![/image/list/35.png](/image/list/35.png) 
+ ![DSA-Using-C/image/list/35.png](DSA-Using-C/image/list/35.png) 
 
  > Figure 6.36 shows the algorithm to
 delete the last node from a circular linked

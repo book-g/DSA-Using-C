@@ -4,11 +4,11 @@ the node containing data 3. Before discussing the changes that will be done in t
 us first look at the algorithm shown in Fig. 6.16.
  
 
- ![/image/list/14.png](/image/list/14.png) 
+ ![DSA-Using-C/image/list/14.png](DSA-Using-C/image/list/14.png) 
 
- ![/image/list/15.png](/image/list/15.png) 
+ ![DSA-Using-C/image/list/15.png](DSA-Using-C/image/list/15.png) 
 
- ![/image/list/16.png](/image/list/16.png) 
+ ![DSA-Using-C/image/list/16.png](DSA-Using-C/image/list/16.png) 
 
  > In Step 5, we take a pointer variable PTR and initialize it with START. That is, PTR now points to 
 the first node of the linked list. Then we take another pointer variable PREPTR which will be used 

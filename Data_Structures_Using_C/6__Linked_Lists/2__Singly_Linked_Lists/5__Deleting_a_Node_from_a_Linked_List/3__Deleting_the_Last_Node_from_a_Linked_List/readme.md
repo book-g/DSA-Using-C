@@ -3,7 +3,7 @@
 linked list, then the following changes will be done in the linked list.
  
 
- ![/image/list/22.png](/image/list/22.png) 
+ ![DSA-Using-C/image/list/22.png](DSA-Using-C/image/list/22.png) 
 
  >  Figure 6.23 shows the algorithm to delete the last node from a linked list. In Step 2, we take 
 a pointer variable PTR and initialize it with START. That is, PTR now points to the first node of the 
@@ -13,4 +13,4 @@ pointer of the second last node to NULL, so that it now becomes the (new) last n
 list. The memory of the previous last node is freed and returned back to the free pool.
  
 
- ![/image/list/23.png](/image/list/23.png) 
+ ![DSA-Using-C/image/list/23.png](DSA-Using-C/image/list/23.png) 

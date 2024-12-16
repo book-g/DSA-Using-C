@@ -1,7 +1,7 @@
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
  <div style="flex: 1;"> 
  
- ![/image/list/2g.webp](/image/list/2g.webp) 
+ ![DSA-Using-C/image/list/2g.webp](DSA-Using-C/image/list/2g.webp) 
  
  </div>
  <div style="flex: 2;">>  We have studied that an array is a linear collection of data elements in which the elements are 
@@ -22,6 +22,6 @@ and deletions can be done at any point in the list in a constant time.
  </div>
  <div style="flex: 1;"> 
  
- ![/image/list/3g.webp](/image/list/3g.webp) 
+ ![DSA-Using-C/image/list/3g.webp](DSA-Using-C/image/list/3g.webp) 
  
  </div></div>

@@ -12,7 +12,7 @@ then the array can store a maximum of 20 data elements only. There is no such re
 of a linked list.
  
 
- ![/image/list/4.png](/image/list/4.png) 
+ ![DSA-Using-C/image/list/4.png](DSA-Using-C/image/list/4.png) 
 
  > Thus, linked lists provide an efficient way of storing related data and performing basic operations 
 such as insertion, deletion, and updation of information at the cost of extra space required for 

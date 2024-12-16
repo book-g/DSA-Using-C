@@ -5,7 +5,7 @@ the changes that will be done in the linked list, let us first look at the algor
 in Fig. 6.18.
  
 
- ![/image/list/18.png](/image/list/18.png) 
+ ![DSA-Using-C/image/list/18.png](DSA-Using-C/image/list/18.png) 
 
  >  In Step 5, we take a pointer variable 
 PTR and initialize it with START. That is, PTR 
@@ -25,4 +25,4 @@ inserted before this node. Once we reach
 inserted before the desired node.
  
 
- ![/image/list/19.png](/image/list/19.png) 
+ ![DSA-Using-C/image/list/19.png](DSA-Using-C/image/list/19.png) 

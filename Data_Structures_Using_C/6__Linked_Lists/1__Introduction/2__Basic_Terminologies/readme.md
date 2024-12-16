@@ -6,7 +6,7 @@ and their variations. A linked list can be perceived as a train or a sequence of
 node contains one or more data fields and a pointer to the next node.
  
 
- ![/image/list/1.png](/image/list/1.png) 
+ ![DSA-Using-C/image/list/1.png](DSA-Using-C/image/list/1.png) 
 
  > In Fig. 6.1, we can see a linked list in which every node contains two parts, an integer and a 
 pointer to the next node. The left part of the node which contains data may include a simple data 
@@ -41,7 +41,7 @@ insertion, deletion, and updation of information at the cost of extra space requ
 next node
  
 
- ![/image/list/2.png](/image/list/2.png) 
+ ![DSA-Using-C/image/list/2.png](DSA-Using-C/image/list/2.png) 
 
  >  In the figure, we can see that the variable START is used to 
 store the address of the first node. Here, in this example, START 
@@ -71,7 +71,7 @@ first linked list will contain the roll numbers of all the students who have opt
 second list will contain the roll numbers of students who have chosen Computer Science.
  
 
- ![/image/list/3.png](/image/list/3.png) 
+ ![DSA-Using-C/image/list/3.png](DSA-Using-C/image/list/3.png) 
 
  > Now, look at Fig. 6.3, two different linked lists are simultaneously maintained in the memory. 
 There is no ambiguity in traversing through the list because each list maintains a separate START 
