@@ -51,7 +51,40 @@ void createFile(key, value, filepath) {
     var read = "";
     if (file.existsSync() && value != null && value.isNotEmpty) {
       if (key == "text") {
-        read = file.readAsStringSync() + "\n > ${value} \n";
+        if (value is Set) {
+          // if (value.length == 2) {
+          //   var l1 =
+          //       '<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">';
+          //   var l2 = '<div style="flex: 1;">';
+          //   var l3 = '<div style="flex: 2;">';
+          //   var l4 = '</div>';
+
+          //   read = file.readAsStringSync() +
+          //       "$l1 \n $l2 \n \n ![${value.elementAt(0)}](${value.elementAt(0)}) \n \n $l4 \n $l3> ${value.elementAt(1)} \n $l4 \n $l4";
+          // }
+
+          var l1 =
+              '<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">';
+          var l2 = '<div style="flex: 1;">';
+          var l3 = '<div style="flex: 2;">';
+          var l4 = '</div>';
+          read = file.readAsStringSync() + "$l1";
+
+          for (var i in value) {
+            if (i is Map) {
+              if (i.entries.first.key == "image") {
+                read +=
+                    "\n $l2 \n \n ![${i.entries.first.value}](${i.entries.first.value}) \n \n $l4";
+              }
+              if (i.entries.first.key == "text") {
+                read += "\n $l3> ${i.entries.first.value} \n $l4";
+              }
+            }
+          }
+          read += "$l4";
+        } else {
+          read = file.readAsStringSync() + "\n > ${value} \n";
+        }
       } else if (key == "ul" || key == "li") {
         if (value is List) {
           read = file.readAsStringSync() + "\n";

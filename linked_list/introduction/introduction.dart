@@ -1,12 +1,17 @@
 var linked_list_learning_objective = [
   {"text": "Learning Objective"},
   {
-    "text": """
+    "text": {
+      {
+        "text": """
  A linked list is a collection of data elements called nodes in which the linear 
 representation is given by links from one node to the next node. In this chapter, we 
 are going to discuss different types of linked lists and the operations that can be 
 performed on these lists.
 """
+      },
+      {"image": "/image/list/1g.webp"}
+    },
   },
 ];
 
@@ -29,6 +34,16 @@ and deletions can be done at any point in the list in a constant time.
 """;
 
 var linked_list_introduction = [
-  {"text": p1},
-  {"text": p2},
+  {
+    "text": {
+      {"image": "/image/list/2g.webp"},
+      {"text": p1}
+    }
+  },
+  {
+    "text": {
+      {"text": p2},
+      {"image": "/image/list/3g.webp"}
+    }
+  },
 ];
