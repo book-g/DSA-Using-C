@@ -1,3 +1,7 @@
+import 'linked_list/circular_linked_list/cll_introduction.dart';
+import 'linked_list/circular_linked_list/inserting_a_new_node_in_a_cll/insert_in_cll_intro.dart';
+import 'linked_list/circular_linked_list/inserting_a_new_node_in_a_cll/inserting_a_node_at_end.dart';
+import 'linked_list/circular_linked_list/inserting_a_new_node_in_a_cll/inserting_a_node_at_the_beginning_of_a_circular_linked_list.dart';
 import 'linked_list/introduction/introduction.dart';
 import 'linked_list/introduction/basic_terminologies.dart';
 import 'linked_list/introduction/linked_lists_verus_arrays.dart';
@@ -228,19 +232,25 @@ var linked_list = [
   },
   {
     "3. Circular Linked Lists": [
-      {"1. Introduction": []},
+      {"1. Introduction": circular_ll},
       {
         "1. Inserting a New Node in a Circular Linked List": [
+          {"1. Introduction": insert_in_cll_intro},
           {
-            "1. Inserting a Node at the Beginning of a Circular Linekd List": []
+            "2. Inserting a Node at the Beginning of a Circular Linekd List":
+                insert_a_node_in_begin_cll
           },
-          {"2. Inserting a Node at the End of a Circular Linked List": []},
+          {
+            "3. Inserting a Node at the End of a Circular Linked List":
+                insert_a_node_end_cll
+          },
         ]
       },
       {
         "2. Deleting a Node from a Circular Linked List": [
-          {"1. Deleting the First Node from a Circular Linked List": []},
-          {"2. Deleting the Last Node from a Circular Linked List": []},
+          {"1. Introduction": []},
+          {"2. Deleting the First Node from a Circular Linked List": []},
+          {"3. Deleting the Last Node from a Circular Linked List": []},
         ]
       },
       {"Programming Example": []}
