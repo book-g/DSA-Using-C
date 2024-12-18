@@ -20,11 +20,11 @@ var p3 = """
 to me at reemathareja@gmail.com
 """;
 
-var p4 = "Reema Thareja";
+var p4 = "Book Author = Reema Thareja";
 
 var acknowledgement = [
   {"text": p1},
   {"text": p2},
   {"text": p3},
-  {"book_author": p4},
+  {"text": p4},
 ];
