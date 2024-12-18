@@ -32,8 +32,6 @@ import 'preface_to_the_second_edition/introduction.dart';
 import 'preface_to_the_second_edition/new_to_the_second_edition.dart';
 
 var introduction_to_c = [
-  {"text": "*Book Author* **'Reema Thareja'**"},
-  {"text": "*Website Creator*  **'Gobal Krishnan V'**"},
   {"1. Introduction": []},
   {"2. Identifiers and Keywords": []},
   {"3. Basic Data Types": []},
@@ -589,6 +587,11 @@ var files_and_their_organization = [
 
 var listheader = {
   "Data Structures Using C": [
+    {"text": "*Book Author* **'Reema Thareja'** | reemathareja@gmail.com"},
+    {
+      "text":
+          "*Website Creator*  **'Gobal Krishnan V'** | gobalkrishnan.books@gmail.com"
+    },
     {
       "Preface to the Second Edition": [
         {"1. Introduction": preface_to_the_second_edition_introduction},
