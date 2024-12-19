@@ -1,3 +1,0 @@
-
-## 2. Using Functions
-

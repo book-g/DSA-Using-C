@@ -1,3 +1,0 @@
-
-## 4. Generic Pointers
-

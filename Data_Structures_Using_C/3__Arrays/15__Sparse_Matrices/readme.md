@@ -1,3 +1,0 @@
-
-## 15. Sparse Matrices
-
