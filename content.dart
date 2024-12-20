@@ -271,27 +271,29 @@ var linked_list = [
       {"1. Introduction": []},
       {
         "2. Inserting a New Node in a Doubly Linked List": [
-          {"1. Inserting a Node at the Beginning of a Doubly Linked List": []},
-          {"2. Inserting a Node at the End of a Doubly Linked List": []},
+          {"1. Introduction": []},
+          {"2. Inserting a Node at the Beginning of a Doubly Linked List": []},
+          {"3. Inserting a Node at the End of a Doubly Linked List": []},
           {
-            "3. Inserting a Node After a Given Node in a Doubly Linked List": []
+            "4. Inserting a Node After a Given Node in a Doubly Linked List": []
           },
           {
-            "4. Inserting a Node Before a Given Node in a Doubly Linked List":
+            "5. Inserting a Node Before a Given Node in a Doubly Linked List":
                 []
           }
         ]
       },
       {
         "3. Deleting a Node from a Doubly Linked List": [
-          {"1. Deleting the First Node from a Doubly Linked List": []},
-          {"2. Deleting the Last Node from a Doubly Linked List": []},
+          {"1. Introduction": []},
+          {"2. Deleting the First Node from a Doubly Linked List": []},
+          {"3. Deleting the Last Node from a Doubly Linked List": []},
           {
-            "3. Deleting the Node After a Given Node in a Doubly Linked List":
+            "4. Deleting the Node After a Given Node in a Doubly Linked List":
                 []
           },
           {
-            "4. Deleting the Node Before a Given Node in a Doubly Linked List":
+            "5. Deleting the Node Before a Given Node in a Doubly Linked List":
                 []
           },
         ]
