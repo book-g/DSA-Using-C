@@ -4,12 +4,12 @@ list. We will take two cases and then see how deletion is done in each case. Res
 same as that given for doubly linked lists.
 """;
 
-var p2 = [
+var l2 = [
   {"ul": "Case 1: The first node is deleted."},
   {"ul": "Case 2: The last node is deleted."},
 ];
 
 var intro_delete_cdll = [
   {"text": p1},
-  {"li": p2}
+  {"li": l2}
 ];

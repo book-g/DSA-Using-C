@@ -4,12 +4,12 @@ list. We will take two cases and then see how insertion is done in each case. Re
 similar to that given for doubly linked lists.
 """;
 
-var p2 = [
+var l2 = [
   {"ul": "Case 1: The new node is inserted at the beginning."},
   {"ul": "Case 2: The new node is inserted at the end."}
 ];
 
 var intro_insert_a_node_cdll = [
   {"text": p1},
-  {"li": p2}
+  {"li": l2}
 ];

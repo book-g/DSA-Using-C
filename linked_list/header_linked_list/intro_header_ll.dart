@@ -4,7 +4,7 @@ of the list. So, in a header linked list, START will not point to the first node
 contain the address of the header node. The following are the two variants of a header linked list:
 """;
 
-var p2 = [
+var l2 = [
   {
     "ul":
         "Grounded header linked list which stores NULL in the next field of the last node."
@@ -84,7 +84,7 @@ START -> NEXT instead of START.
 
 var header_list = [
   {"text": p1},
-  {"text": p2},
+  {"li": l2},
   {"image": i3},
   {"text": p4},
   {"image": i5},

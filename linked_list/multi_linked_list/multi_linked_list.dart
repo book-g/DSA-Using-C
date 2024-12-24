@@ -4,7 +4,7 @@ list is a special case of multi-linked lists. However, unlike doubly linked list
 linked list may or may not have inverses for each pointer. We can differentiate a doubly linked 
 list from a multi-linked list in two ways:""";
 
-var p2 = [
+var l2 = [
   {
     "ul":
         """ (a) A doubly linked list has exactly two pointers. One pointer points to the previous node and 
@@ -24,7 +24,7 @@ var p3 =
 example, if we have a linked list that stores name and marks obtained by students in a class, then 
 we can organize the nodes of the list in two ways:""";
 
-var p4 = [
+var l4 = [
   {"ul": """ (i) Organize the nodes alphabetically (according to the name)"""},
   {
     "ul":
@@ -75,9 +75,9 @@ var i13 = "/image/list/73.png";
 
 var multi_linked_list = [
   {"text": p1},
-  {"text": p2},
+  {"li": l2},
   {"text": p3},
-  {"text": p4},
+  {"li": l4},
   {"text": p5},
   {"image": i6},
   {"text": p7},
