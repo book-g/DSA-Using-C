@@ -1,3 +1,11 @@
+import 'linked_list/circular_doubly_linked_list/delete_a_node_in_cdll/delete_a_end_node_in_cdll.dart';
+import 'linked_list/circular_doubly_linked_list/delete_a_node_in_cdll/delete_a_first_node_in_cdll.dart';
+import 'linked_list/circular_doubly_linked_list/delete_a_node_in_cdll/intro_to_delete_cdll.dart';
+import 'linked_list/circular_doubly_linked_list/insert_a_node_in_cdll/insert_a_node_at_beg.dart';
+import 'linked_list/circular_doubly_linked_list/insert_a_node_in_cdll/insert_a_node_at_end.dart';
+import 'linked_list/circular_doubly_linked_list/insert_a_node_in_cdll/intro_insert_a_node_in_cdll.dart';
+import 'linked_list/circular_doubly_linked_list/intro_to_cdll.dart';
+import 'linked_list/circular_doubly_linked_list/programming_example/programming_example.dart';
 import 'linked_list/circular_linked_list/cll_introduction.dart';
 import 'linked_list/circular_linked_list/deleting_a_new_node_in_a_cll/deleting_the_first_node_in_cll.dart';
 import 'linked_list/circular_linked_list/deleting_a_new_node_in_a_cll/deleting_the_last_node_in_cll.dart';
@@ -6,6 +14,18 @@ import 'linked_list/circular_linked_list/inserting_a_new_node_in_a_cll/insert_in
 import 'linked_list/circular_linked_list/inserting_a_new_node_in_a_cll/inserting_a_node_at_end.dart';
 import 'linked_list/circular_linked_list/inserting_a_new_node_in_a_cll/inserting_a_node_at_the_beginning_of_a_circular_linked_list.dart';
 import 'linked_list/circular_linked_list/programming_example/programming_example.dart';
+import 'linked_list/doubly_linked_list/delete_a_new_node_in_dll/delete_a_node_after_in_dll.dart';
+import 'linked_list/doubly_linked_list/delete_a_new_node_in_dll/delete_a_node_before_in_dll.dart';
+import 'linked_list/doubly_linked_list/delete_a_new_node_in_dll/delete_a_node_in_dll.dart';
+import 'linked_list/doubly_linked_list/delete_a_new_node_in_dll/delete_beg_node_in_dll.dart';
+import 'linked_list/doubly_linked_list/delete_a_new_node_in_dll/delete_end_node_in_dll.dart';
+import 'linked_list/doubly_linked_list/dll_intro.dart';
+import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/insert_a_node_after_a_node_in_dll.dart';
+import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/insert_a_node_before_in_dll.dart';
+import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/insert_node_at_beg_in_dll.dart';
+import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/insert_node_at_end_in_dll.dart';
+import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/inserting_a_new_node_in_dll_intro.dart';
+import 'linked_list/doubly_linked_list/programming_example/programming_example.dart';
 import 'linked_list/introduction/introduction.dart';
 import 'linked_list/introduction/basic_terminologies.dart';
 import 'linked_list/introduction/linked_lists_verus_arrays.dart';
@@ -268,44 +288,82 @@ var linked_list = [
   },
   {
     "4. Doubly Linked Lists": [
-      {"1. Introduction": []},
+      {"1. Introduction": dll_intro},
       {
         "2. Inserting a New Node in a Doubly Linked List": [
-          {"1. Introduction": []},
-          {"2. Inserting a Node at the Beginning of a Doubly Linked List": []},
-          {"3. Inserting a Node at the End of a Doubly Linked List": []},
+          {"1. Introduction": insert_a_nn_in_dll_intro},
           {
-            "4. Inserting a Node After a Given Node in a Doubly Linked List": []
+            "2. Inserting a Node at the Beginning of a Doubly Linked List":
+                insert_a_node_beg_in_dll
+          },
+          {
+            "3. Inserting a Node at the End of a Doubly Linked List":
+                insert_a_node_at_end_of_dll
+          },
+          {
+            "4. Inserting a Node After a Given Node in a Doubly Linked List":
+                insert_node_after_a_given_node_in_dll
           },
           {
             "5. Inserting a Node Before a Given Node in a Doubly Linked List":
-                []
+                insert_a_nn_before_a_node
           }
         ]
       },
       {
         "3. Deleting a Node from a Doubly Linked List": [
-          {"1. Introduction": []},
-          {"2. Deleting the First Node from a Doubly Linked List": []},
-          {"3. Deleting the Last Node from a Doubly Linked List": []},
+          {"1. Introduction": delete_a_node_in_dll_intro},
+          {
+            "2. Deleting the First Node from a Doubly Linked List":
+                delete_the_beg_in_dll
+          },
+          {
+            "3. Deleting the Last Node from a Doubly Linked List":
+                delete_a_node_end_in_dll
+          },
           {
             "4. Deleting the Node After a Given Node in a Doubly Linked List":
-                []
+                delete_node_after_in_dll
           },
           {
             "5. Deleting the Node Before a Given Node in a Doubly Linked List":
-                []
+                delete_node_before_in_dll
           },
         ]
       },
-      {"Programming Example": []}
+      {"Programming Example": dll_programming_example}
     ]
   },
   {
     "5. Circular Doubly Linked Lists": [
-      {"1. Introduction": []},
-      {"2. Inserting a New Node in a Circular Doubly Linked List": []},
-      {"3. Deleting a Node from a Circular Doubly Linked List": []},
+      {"1. Introduction": intro_to_cdll},
+      {
+        "2. Inserting a New Node in a Circular Doubly Linked List": [
+          {"1. Introduction": intro_insert_a_node_cdll},
+          {
+            "2. Inserting a Node at the Beginning of a Circular Doubly Linked List":
+                insert_node_at_beg_in_cdll
+          },
+          {
+            "3. Inserting a Node at the End of a Circular Doubly Linked List":
+                insert_a_node_end_in_cdll
+          }
+        ]
+      },
+      {
+        "3. Deleting a Node from a Circular Doubly Linked List": [
+          {"1. Introduction": intro_delete_cdll},
+          {
+            "2. Deleting the First Node from a Circular Doubly Linked List":
+                delete_first_node_in_cdll
+          },
+          {
+            "3. Deleting the Last Node from a Circular Doubly Linked List":
+                delete_a_end_node_in_cdll
+          },
+        ]
+      },
+      {"Programming Example": cdll_programming_example}
     ]
   },
   {"6. Header Linked Lists": []},

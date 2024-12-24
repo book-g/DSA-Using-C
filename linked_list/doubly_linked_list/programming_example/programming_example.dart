@@ -272,7 +272,7 @@ Enter your option : 12
 
 """;
 
-var dll = [
+var dll_programming_example = [
   {"text": p1},
   {"code": p2}
 ];
