@@ -26,6 +26,7 @@ import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/insert_node_a
 import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/insert_node_at_end_in_dll.dart';
 import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/inserting_a_new_node_in_dll_intro.dart';
 import 'linked_list/doubly_linked_list/programming_example/programming_example.dart';
+import 'linked_list/header_linked_list/intro_header_ll.dart';
 import 'linked_list/introduction/introduction.dart';
 import 'linked_list/introduction/basic_terminologies.dart';
 import 'linked_list/introduction/linked_lists_verus_arrays.dart';
@@ -366,7 +367,7 @@ var linked_list = [
       {"Programming Example": cdll_programming_example}
     ]
   },
-  {"6. Header Linked Lists": []},
+  {"6. Header Linked Lists": header_list},
   {"7. Multi-linked Lints": []},
   {
     "8. Applications of Linked Lists": [
