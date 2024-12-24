@@ -24,7 +24,7 @@ doubly linked list, the PREV field of the NEW_NODE
 is set to contain the address of the last node.
 """;
 
-var insert_node_at_beg = [
+var insert_node_at_beg_in_cdll = [
   {"text": p1},
   {"image": i2},
   {"image": i3},

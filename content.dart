@@ -1,3 +1,6 @@
+import 'linked_list/application_of_linked_lists/introduction.dart';
+import 'linked_list/application_of_linked_lists/polynomial_representation.dart';
+import 'linked_list/application_of_linked_lists/programming_example/programming_example.dart';
 import 'linked_list/circular_doubly_linked_list/delete_a_node_in_cdll/delete_a_end_node_in_cdll.dart';
 import 'linked_list/circular_doubly_linked_list/delete_a_node_in_cdll/delete_a_first_node_in_cdll.dart';
 import 'linked_list/circular_doubly_linked_list/delete_a_node_in_cdll/intro_to_delete_cdll.dart';
@@ -27,10 +30,12 @@ import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/insert_node_a
 import 'linked_list/doubly_linked_list/inserting_a_new_node_in_dll/inserting_a_new_node_in_dll_intro.dart';
 import 'linked_list/doubly_linked_list/programming_example/programming_example.dart';
 import 'linked_list/header_linked_list/intro_header_ll.dart';
+import 'linked_list/header_linked_list/programming_example/programming_example.dart';
 import 'linked_list/introduction/introduction.dart';
 import 'linked_list/introduction/basic_terminologies.dart';
 import 'linked_list/introduction/linked_lists_verus_arrays.dart';
 import 'linked_list/introduction/memory_allocation_and_deallocation_for_a_linked_list.dart';
+import 'linked_list/multi_linked_list/multi_linked_list.dart';
 import 'linked_list/singly_linked_list/deleting_a_node_in_ll/delete_a_first_node_in_ll.dart';
 import 'linked_list/singly_linked_list/deleting_a_node_in_ll/delete_a_last_node_in_ll.dart';
 import 'linked_list/singly_linked_list/deleting_a_node_in_ll/delete_a_node_in_ll_intro.dart';
@@ -367,11 +372,18 @@ var linked_list = [
       {"Programming Example": cdll_programming_example}
     ]
   },
-  {"6. Header Linked Lists": header_list},
-  {"7. Multi-linked Lints": []},
+  {
+    "6. Header Linked Lists": [
+      {"Introduction": header_list},
+      {"Programming Example": hl_programming}
+    ],
+  },
+  {"7. Multi-linked Lints": multi_linked_list},
   {
     "8. Applications of Linked Lists": [
-      {"1. Polynomial Representation": []},
+      {"1. Introduction": application_of_linked_lists_intro},
+      {"2. Polynomial Representation": polynomial_representation_data},
+      {"Programming Example": programming_example}
     ]
   },
 ];
